@@ -150,6 +150,17 @@
         width: 60px;
         height: 60px;
     }
+    .blog_head_inline h3 {
+        font-size: 24px;
+        line-height: 36px;
+    }
+    .blog_text_wrap h4 {
+        font-size: 22px;
+        line-height: 30px;
+    }
+    .blog_text_wrap p{
+        width:100%;
+    }
 }
 @media(max-width:1199px){   
     .hero-info h2 {
@@ -163,7 +174,10 @@
     .leadership_lead_before,.leadership_lead_after  {
         font-size: 24px;
     }
-
+    .blog_head_inline h3 {
+        font-size: 20px;
+        line-height: 30px;
+    }
 }
 
 @media(max-width:991px){  
@@ -379,10 +393,27 @@
         height: 60px;
         object-fit: contain;
     }
+    .blog-tagline {
+        padding: 10px 0px 10px;
+    }
+    .blog_text_wrap h4 {
+        font-size: 18px;
+        line-height: 26px;
+    }
+    .blog_text_wrap p {
+        padding: 0px 0px 14px;
+    }
+    .blog_text_wrap {
+        padding: 0px 20px;
+    }
 }
 @media(max-width:767px){
     .together_head::before {
         display: none;
+    }
+    .blog_text_wrap h4 {
+        font-size: 16px;
+        line-height: 26px;
     }
     .ourteam {
         padding: 150px 0px 50px;
@@ -501,6 +532,13 @@
     }
     
 }
+@media(max-width:640px){
+    .blog-tagline h3 {
+        font-size: 14px;
+        line-height: 20px;
+    }
+    
+}
 @media(max-width:575px){
     .mb-border{
         position: relative;
@@ -559,6 +597,13 @@
     }    
     .second-section {
         padding: 20px 0px 0px;
+    }
+    .blog_head_inline {
+        flex-wrap: wrap;
+        row-gap: 1rem;
+    }
+    .search_icon{
+        width: 100%;
     }
 }
 @media(max-width:360px){}

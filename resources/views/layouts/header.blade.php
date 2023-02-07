@@ -22,7 +22,7 @@
                         </li>
                         <li><a class="nav-link scrollto" href="{{ url('/services/USA/Accounting-Bookkeeping-services/') }}" title="Services">Services</a></li>
                         <li><a class="nav-link scrollto" href="{{ url('careers') }}" title="Careers">Careers</a></li>
-                        <li><a class="nav-link scrollto" href="#team" title="Blogs">Blogs</a></li>
+                        <li><a class="nav-link scrollto" href="{{ url('blog')}}" title="Blogs">Blogs</a></li>
                         <li><a class="nav-link scrollto" href="{{ url('contact-us') }}" title="Contact Us">Contact Us</a></li>
                         <li class=""><a href="" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/karthick-s/talk-to-karthick-subramaniam?hide_gdpr_banner=1'});return false;" class="btn-free-trail" title="Get free trail">Get free trial</a></li>
                     </ul>

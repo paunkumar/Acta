@@ -3599,3 +3599,119 @@ ul.social-links a{
     padding: 20px 15px 15px;
   }
 }
+/**blog **/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;900&display=swap');
+.blog_wrapp{
+  padding: 125px 0px;
+}
+.breadcrumb{
+  align-items: baseline !important;
+}
+.breadcrumb-item a, .breadcrumb-item.active{
+  font-family: 'Poppins', sans-serif;
+  color:#3C3C3C;
+  font-size:14px;
+  line-height: 22px;
+  font-weight: 700;
+}
+.blog_wrapp .breadcrumb-item.active{
+  color:#9B9B9B !important;
+}
+.breadcrumb-item+.breadcrumb-item::before {
+  content: var(--bs-breadcrumb-divider, ">");
+}
+.blog_head_inline{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 35px;
+}
+.blog_head_inline h3{
+  font-family: 'Poppins', sans-serif;
+  color:#3C3C3C;
+  font-size:30px;
+  line-height: 45px;
+  font-weight: 700;
+  padding: 0;
+  margin: 0;
+}
+.blog_head_inline .form-control{
+  height:42px;
+  border-radius: 4px;
+  box-shadow: 0px 0px 8px 0px #0000001F;
+  padding: 0px 10px 0px 40px ;
+  font-size: 12px;
+  line-height: 18px;
+  font-weight: 400;
+}
+.search_icon{
+  position: relative;
+  width:30%;
+}
+.search_pos{
+  position: absolute;
+  top:50%;
+  left:15px;
+  transform: translateY(-50%);
+}
+.search_icon::-webkit-input-placeholder{
+  font-family: 'Poppins', sans-serif;
+  font-size: 12px;
+  line-height: 18px;
+  font-weight: 400;
+}
+.blog_wrapp img{
+  border-radius: 5px;
+}
+.blog_text_wrap{
+  padding: 0px 35px;
+}
+.blog-tagline{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 25px 0px 20px;
+}
+.blog-tagline h3{
+  font-family: 'Poppins', sans-serif;
+  color:#3C3C3C;
+  font-size:16px;
+  line-height: 26px;
+  font-weight: 600;
+  padding: 0;
+  margin: 0;
+}
+.blog-tagline h3 span{
+  color: #54E6D4;
+}
+.blog_text_wrap h4{
+  font-family: 'Poppins', sans-serif;
+  color:#3C3C3C;
+  font-size:24px;
+  line-height: 36px;
+  font-weight: 600;
+  padding: 0 0 20px;
+  margin: 0;
+}
+.blog_text_wrap p{
+  font-family: 'Poppins', sans-serif;
+  color: #3C3C3C;
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: 400;
+  padding: 0 0 30px;
+  margin: 0;
+  width: 82%;
+}
+.blog_text_wrap small{
+  font-family: 'Poppins', sans-serif;
+  color: #3C3C3C;
+  font-size: 12px;
+  line-height: 18px;
+  font-weight: 400;
+  padding: 0px;
+  margin: 0;
+}
+.tagline_hr{
+  margin:3rem 0rem;
+}

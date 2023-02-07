@@ -133,3 +133,7 @@ Route::get('/services/othercountries',[ServiceController::class,
 
 //user
 Route::get('/', [HomeController::class,'index']);
+
+Route::get('/blog',function(){
+    return view('blog');
+});
