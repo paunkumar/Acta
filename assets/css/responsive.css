@@ -1,0 +1,564 @@
+
+@media(max-width:1920px){
+    #hero .hero-info {
+        width: 60%;
+    }
+}
+@media(max-width:1601px){
+    #hero .hero-info {
+        width: 80%;
+    }
+    .about-header h3, .about-header h2 {
+        font-size: 38px;
+        padding: 0 0 10px;
+    }
+   
+    .about-header p {
+        font-size: 26px;
+        line-height: 50px;
+    }
+    .ourvalues h3,  .our_vission_head h4 span {
+        font-size: 36px;
+        line-height: 55px;
+    }
+}
+@media(max-width:1440px){
+    .main-section {
+        padding: 150px 0 100px 0;
+    }
+    .hero-info h2 {
+        font-size: 48px;
+        line-height: 65px;
+    }
+    #services, .clients {
+        padding: 50px 0 50px 0;
+    }
+    .section-header h3, .section-header h2, .section-header h1 {
+        font-size: 32px;
+        line-height: 50px;
+    }
+   
+    #why-us .sub-para {
+        font-size: 20px;
+        line-height: 36px;
+    }
+    .about-header h3, .about-header h2 {
+        font-size: 36px;
+        line-height: 55px;
+    }
+    
+    .about-header p {
+        font-size: 24px;
+        line-height: 40px;
+    }
+    .ourvalues h3,  .our_vission_head h4 span{
+        font-size: 30px;
+        line-height: 45px;
+    }
+    #about-vision {
+        padding: 90px 0 90px 0;
+    }
+    .heading-people-content h3, .leadership_head h3, .heading-people-content h2, .leadership_head h2 {
+        font-size: 36px;
+        line-height: 50px;
+    }
+    .joinasteam_wrap h3, .joinasteam_wrap p {
+        font-size: 36px;
+        line-height: 50px;
+    }
+    .together_head h3 {
+        font-size: 50px;
+        line-height: 70px;
+    }
+    .leadership_lead_before,.leadership_lead_after {
+        font-size: 36px;
+    }
+    .leadership_lead_before {
+        width: 70px;
+        height: 70px;
+    }
+}
+@media(max-width:1280px){
+    .main-section {
+        padding: 150px 0 100px 0;
+    }
+    .hero-info h2 {
+        font-size: 42px;
+        line-height: 60px;
+    }
+    .second-section {
+        padding: 30px 0px 0px;
+    }
+    .appointment-section {
+        padding: 50px 0px 0px;
+    }
+    .main-section .hero-info .btn-get-started, .main-section .hero-info .btn-services {
+       
+        display: inline-block;
+        padding: 10px 20px;
+    }
+    #our-services .title {
+        font-size: 20px;
+        line-height: 30px;
+        padding:0 0 0px;
+    }
+    .about-header h3, .about-header h2 {
+        font-size: 30px;
+        line-height: 50px;
+    }
+    
+    .about-header p {
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .ourvalues h3,  .our_vission_head h4 span {
+        font-size: 30px;
+        line-height: 45px;
+    }
+    .people-info h4 {
+        font-size: 24px;
+        line-height: 40px;
+    }
+    .manange_info p {
+        font-size: 18px;
+        line-height: 30px;
+    }
+    .heading-people-content h3, .leadership_head h3, .heading-people-content h2, .leadership_head h2 {
+        font-size: 30px;
+        line-height: 45px;
+    }
+    .heading-people-content p, .leadership_head p {
+        font-size: 18px;
+        line-height: 36px;
+    }
+    .together_head h3 {
+        font-size: 50px;
+        line-height: 60px;
+    }
+    .joinasteam_wrap h3 {
+        font-size: 30px;
+        line-height: 45px;
+    }
+    .joinasteam_wrap h3, .joinasteam_wrap p {
+        font-size: 30px;
+        line-height: 45px;
+    }
+    .leadership_lead_before,.leadership_lead_after  {
+        font-size: 30px;
+    }
+    .leadership_lead_before {
+        width: 60px;
+        height: 60px;
+    }
+}
+@media(max-width:1199px){   
+    .hero-info h2 {
+        font-size: 48px;
+        line-height: 66px;
+    }
+    .together_head h3 {
+        font-size: 40px;
+        line-height: 50px;
+    }
+    .leadership_lead_before,.leadership_lead_after  {
+        font-size: 24px;
+    }
+
+}
+
+@media(max-width:991px){  
+    .people-info h4 {
+        font-size: 20px;
+        line-height: 36px;
+    }
+    .main-section{
+        padding:150px 0px 70px;
+    } 
+    .hero-info h2 {
+        font-size: 26px;
+        line-height: 45px;
+    }
+    .second-section{
+        padding: 40px 0px 0px;
+    }
+    .appointment-section {
+        padding: 40px 0px 0px;
+    }
+    .second-section h6 {
+        font-size: 22px;
+    }
+    .main-section .hero-info .btn-services {
+        font-size: 16px;
+        padding: 15px;
+    }
+    
+    .right_border::after{
+        border-right:0px solid !important
+    }
+    .horders-2{
+        order: 3;
+    }
+    .horders-3{
+        order: 2;
+    }
+    .horders-4{
+        order: 3;
+    }
+    .cmt-13 {
+        margin-top: 0px;
+    }
+    #services .box {
+        width: 70%;
+        margin: 0px auto 40px;
+    }
+   
+    #services{
+        padding: 60px 0 60px 0;
+    }
+    .clients {
+        padding: 60px 0 20px 0;
+    }
+    .section-header h3, .section-header h2, .section-header h1 {
+        font-size: 30px;
+        line-height: 40px;
+    }
+    
+    .client-logo{
+        height:125px;
+    }
+    #why-us .sub-para {
+        font-size: 20px;
+        line-height: 40px;
+        width: 90%;
+        margin: 0 auto;
+    }
+    .footer-sublist {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 75%;
+    }
+    .cmt-5 {
+        margin-top: 0px;
+    }
+    .about-header h3, .about-header h2 {
+        font-size: 24px;
+        line-height: 40px;
+    }
+   
+    .about-header p , .our_vission p .ourvalues p{
+        font-size: 16px;
+        line-height: 30px;
+    }
+    #about {
+        padding: 100px 0 30px 0;
+    }
+    .about_section {
+        padding: 50px 0px 50px;
+    }
+    .abt_mb{
+        margin-bottom: 30px;
+    }
+    .about_sections {
+        width: 100%;
+    }
+    .second_section {
+        padding: 50px 0px 50px;
+    }
+    .iso-text-wrap h1 {
+        font-size: 24px;
+        line-height: 36px;
+    }
+    .iso_section {
+        background-position: 92% 0px;
+        padding: 30px 0px;
+    }
+    .ourvalues h3{
+        font-size: 24px;
+        line-height: 40px;
+    }
+    .ourvalues p {
+        width: 100%;
+    }
+    .about_sections h3, .second_section h3 {
+        font-size: 16px;
+        line-height: 30px;
+    }
+    .iso-text-wrap h1 {
+        font-size: 24px;
+        line-height: 36px;
+    }
+    #iso_sec_wrap {
+        padding: 0px 0px 50px;
+    }
+    #about-vision {
+        padding: 50px 0 50px 0;
+    }
+    #header .logo img {
+        padding: 5px 0px;
+    }
+    .people-info h4 {
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .people-info h5 {
+        font-size: 16px;
+        line-height: 35px;
+    }
+    .people-info p{
+        font-size:16px;
+        line-height: 30px;
+    }
+    .weare-happy {
+        padding: 0px 0px 50px;
+    }
+    .people-management::after, .people-management-two::after, .people-management-third::after, .people-management-four::after{
+        display: none;
+    }
+    .people-management,.people-management-two,.people-management-third, .people-management-four {
+        padding: 100px 0px 100px;
+    }
+    .heading-people-content h3, .leadership_head h3, .heading-people-content h2, .leadership_head h2 {
+        font-size: 24px;
+        line-height: 40px;
+    }
+    .heading-people-content h3{
+        margin:0 0 10px;
+    }
+    .heading-people-content p, .leadership_head p {
+        font-size: 16px;
+        line-height: 30px;
+    }
+    .together_head h3 {
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .together_head::before {
+        left: 5%;
+        transform: translate(-5%,-50%);
+    }
+    .together_head::after {
+        right: 5%;
+        transform: translate(-5%,-50%);
+    }
+    .joinasteam_wrap h3 {
+        font-size: 24px;
+        line-height: 40px;
+    }
+    .joinasteam_wrap h3, .joinasteam_wrap p {
+        font-size: 24px;
+        line-height: 45px;
+    }
+    .leadership_lead_before{
+        font-size:30px;
+        width: 60px;
+        height: 60px;
+    }
+    .leadership_lead_after {
+        font-size: 30px;
+        line-height: 50px;
+    }
+    .icon-box-new {
+        padding-bottom: 50px;
+    }
+    .bottom-border{
+        position: relative;
+    }
+    .bottom-border::after{
+        content: '';
+        position: absolute;        
+        border-bottom: 1px solid #C2C2C2;        
+        bottom: 10%;
+        left: 50%;
+        transform: translate(-50%, -10%);
+        width: 40%;
+        height: 30px;
+    }
+    .client-logo img {
+        width: 100%;
+        height: 60px;
+        object-fit: contain;
+    }
+}
+@media(max-width:767px){
+    .together_head::before {
+        display: none;
+    }
+    .ourteam {
+        padding: 150px 0px 50px;
+    }
+    .together {
+        padding: 50px 0px 0px;
+    }
+    .teammate{
+        padding: 50px 0px;
+    }
+    .together_head::after {
+        display: none;
+    }
+    .iso-text-wrap h1 {
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .section-header h3, .section-header h2, .section-header h1 {
+        font-size: 28px;
+        line-height: 30px;
+    }
+   
+    #why-us .sub-para {
+        font-size: 14px;
+        line-height: 22px;
+        width: 90%;
+    }
+    .section-header {
+        padding: 0 0 30px;
+    }
+    #why-us .sub_para {
+        padding: 0 5px 30px;
+    }
+    #why-us {
+        padding: 60px 0 30px;
+    }
+    #services .box {
+        width: 90%;
+        margin: 0px auto 40px;
+    }
+    .service_wrap h5 a {
+        font-size: 18px;
+        line-height: 26px;
+        padding-bottom: 20px;
+    }
+    #footer .footer-top h4 {
+        margin: 0px 0 15px;
+    }
+    .about-header h3, .about-header h2 {
+        font-size: 20px;
+        line-height: 30px;
+    }
+    
+    .about-header p, .our_vission p, .ourvalues p{
+        font-size: 14px;
+        line-height: 26px;
+    }
+    .ourvalues h3,  .our_vission_head h4 span {
+        font-size: 20px;
+        line-height: 36px;
+    }
+    .card-body .card-text {
+        font-size:16px;
+        line-height: 26px;
+    }
+    .footer-sublist {
+        width: 100%;
+        flex-wrap: wrap;
+        row-gap: 1.5rem;
+    }
+    .about_sections h3, .second_section h3 {
+        font-size: 14px;
+        line-height: 26px;
+    }
+    .people-info p{
+        font-size: 14px;
+        line-height: 26px;
+    }
+    
+    .orders-2{
+        order: 2 !important;
+        display: block;
+    }
+    .orders-1{
+        order: 1 !important;
+        display: block;
+    }
+    .people-info{
+        margin-top:20px;
+    }
+    .heading-people-content h3, .leadership_head h3, .heading-people-content h2, .leadership_head h2 {
+        font-size: 20px;
+        line-height: 36px;
+    }
+    .heading-people-content p, .leadership_head p {
+        font-size: 14px;
+        line-height: 26px;
+    }
+    .together_head h3 {
+        font-size: 24px;
+        line-height: 40px;
+    }
+    .joinasteam_wrap h3 {
+        font-size: 20px;
+        line-height: 36px;
+    }
+    .joinasteam_wrap h3, .joinasteam_wrap p {
+        font-size: 20px;
+        line-height: 35px;
+    }
+    .joinasteam_wrap p{
+        width:90%;
+    }
+    .heading-people-content p{
+       padding: 0 0 0;
+    }
+    
+}
+@media(max-width:575px){
+    .mb-border{
+        position: relative;
+    }
+    .mb-border::after{
+        content: '';
+        position: absolute;        
+        border-bottom: 1px solid #C2C2C2;        
+        bottom: 10%;
+        left: 50%;
+        transform: translate(-50%, -10%);
+        width: 40%;
+        height: 30px;
+    }
+    .MLeQ7L5frSCr8uBrZVIr.dYASldgZDteHnKlz7Har {
+        font-size: 20px !important;
+        line-height: 26px !important;
+    }
+    .main-section {
+        padding: 100px 0px 70px;
+    }
+         
+    /*.client-logo img {
+        height: 60px;
+    } */
+    .iso-text-wrap h1 {
+        font-size: 18px;
+        line-height: 26px;
+    }
+    .lines{
+        display: none;
+    }
+    .web{
+        display: none
+    }
+    .mobile_view{
+        display: block
+    }
+    .mobile_view_section{
+        background: #F6FBFF;
+        padding: 20px 0px;
+        text-align: center;
+    }
+    .second-section h6 {
+        font-size: 20px;
+    }
+    .appointment-section {
+        padding: 0px 0px 20px;
+    }
+    .btn-services {
+        font-size: 16px;
+        padding: 10px;
+    }
+    #main {
+        background:#fff;
+    }    
+    .second-section {
+        padding: 20px 0px 0px;
+    }
+}
+@media(max-width:360px){}

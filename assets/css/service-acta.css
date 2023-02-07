@@ -1,0 +1,171 @@
+/*
+    Page       : all
+    Author     : Mu Million
+*/
+
+#service-head{
+    margin-top: 70px;
+    margin-bottom: 30px;
+}
+#service-head h4{
+    color: #233a8c;
+}
+.d-none{
+    display: none;
+}
+
+#head-container{
+    padding-top: 10px;
+}
+@media (min-width: 1200px) {
+    #service-head {
+        /* margin-top: 150px; */
+    }
+}
+
+/*********************************************************
+                ~service menu starts~
+**********************************************************/
+/********** ~menu starts~ ***********/
+@media (min-width: 1200px) {
+    #service-content .nav:before{
+        content: '';
+        position: absolute;
+        top: 35px !important;
+        height: 65px!important;
+        width: 76%;
+        background-color: #f1f2f3;
+        left: 11%;
+    }
+    #service-content .nav-pills > li{
+        height: 120px!important;
+        width: 120px!important;
+        line-height: 1.8!important;
+        margin: 10px 20px!important;
+    }
+    #service-content .nav-pills > li:before{
+        content: '';
+        border: 1px solid #e7e7e7;
+        position: absolute;
+        top: 4px;
+        height: 112px;
+        width: 112px;
+        border-radius: 50%;
+        left: 4px;
+    }
+    #service-content .nav-pills > li a img{
+        height: 35px!important;
+    }
+    #service-content .nav > li > a {
+        font-size: 14px!important;
+    }
+}
+@media (min-width: 767px) {
+    #service-content .acta-service-menus{
+        text-align: center;
+    }
+    #service-content .nav:before{
+        content: '';
+        position: absolute;
+        top: 25px;
+        height: 50px;
+        width: 76%;
+        background-color: #f1f2f3;
+        left: 11%;
+    }
+    #service-content .acta-service-menus .nav-pills{
+        display: inline-block;
+    }
+    #service-content .nav-pills > li{
+        height: 90px;
+        width: 90px;
+        border-radius: 50%;
+        background-color: #f4f4f4;
+        line-height: 1.6;
+        padding: 2px;
+        margin: 5px;
+        color: #8e8e8e;
+        box-shadow: 2px 2px 10px 1px #cbcbcb;
+    }
+    #service-content .nav-pills > li a{
+        color: #8e8e8e;
+    }
+    #service-content .nav-pills > li.active{
+        background-color: #314bac;
+    }
+    #service-content .nav > li > a {
+        display: inline-block;
+        padding: 0px;
+        font-size: 11px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        text-align: center;
+    }
+    #service-content .nav-pills > li > a {
+        border-bottom: 0px!important;
+    }
+}
+#service-content .nav-pills > li > a {
+    border-radius: 0px;
+    border-bottom: 1px solid #314bac;
+}
+
+#service-content .nav-pills > li.active > a, 
+#service-content .nav-pills > li.active > a:focus, 
+#service-content .nav-pills > li.active > a:hover {
+    color: #fff;
+    background-color: #314bac;
+    border-radius: 0;
+}
+#service-content .nav-pills > li a img{
+    height: 20px;
+}
+#service-content .nav > li.w-map{
+    background-image: url('../img/icon/grey-world-map.png');
+    background-size: cover;
+}
+/********** ~menu ends~ ***********/
+
+#service-content{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+#service-content .tab-content img{
+    width: 30px;
+    margin-right: 5px;
+    transition: all .25s ease;
+}
+#service-content .tab-content  h3{
+    color: #233a8c;
+    display: inline-block;
+    text-transform: capitalize;
+}
+#service-content p{
+    color: #333;
+    text-align: justify;
+}
+#service-content .list-unstyled {
+    padding-left: 10px;
+    list-style: disc;
+}
+
+@media (min-width: 768px) {
+    #service-content ul li{
+        list-style: disc;
+    }
+    #service-content .list-unstyled {
+        padding-left: 80px;
+    }
+    #service-content .tab-content img{
+        width: 50px;
+    }
+    #service-content p{
+        padding-left: 80px;
+    }
+}
+
+/*********************************************************
+                ~service menu ends~
+**********************************************************/
