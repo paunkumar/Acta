@@ -3672,7 +3672,7 @@ ul.social-links a{
   justify-content: space-between;
   padding: 25px 0px 20px;
 }
-.blog-tagline h3{
+.blog-tagline h3, .related_articles h3{
   font-family: 'Poppins', sans-serif;
   color:#3C3C3C;
   font-size:16px;
@@ -3680,6 +3680,10 @@ ul.social-links a{
   font-weight: 600;
   padding: 0;
   margin: 0;
+}
+.related_articles h3{
+  font-weight: 700;
+  padding: 0 0 15px;
 }
 .blog-tagline h3 span{
   color: #54E6D4;
@@ -3693,7 +3697,7 @@ ul.social-links a{
   padding: 0 0 20px;
   margin: 0;
 }
-.blog_text_wrap p{
+.blog_text_wrap p, .each_blog_textwrap h3, .related_articles p{
   font-family: 'Poppins', sans-serif;
   color: #3C3C3C;
   font-size: 14px;
@@ -3703,7 +3707,19 @@ ul.social-links a{
   margin: 0;
   width: 82%;
 }
-.blog_text_wrap small{
+.related_articles p{
+  width: 100%;
+  padding: 0px;
+}
+.related_articles p span{
+  display: block;
+  text-align: right;
+  color:#9A9A9A;
+  font-size:12px;
+  line-height: 18px;
+  padding: 15px 0px 0px;
+}
+.blog_text_wrap small, .each_blog_textwrap h5{
   font-family: 'Poppins', sans-serif;
   color: #3C3C3C;
   font-size: 12px;
@@ -3712,6 +3728,155 @@ ul.social-links a{
   padding: 0px;
   margin: 0;
 }
+.each_blog_textwrap h5{
+  color:#9A9A9A;
+}
+.each_blog_textwrap h5 span{
+  display: block;
+}
 .tagline_hr{
   margin:3rem 0rem;
+}
+.each_blog_wrap{
+  background: #FFFFFF;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.12);
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.each_blog_wrap img{
+  border-radius: 5px 5px 0px 0px;
+}
+.each_blog_textwrap{
+  border-radius: 0 0 5px 5px;
+}
+.each_blog_textwrap{
+  background: #fff;
+  padding: 20px;
+}
+.each_blog_textwrap h3{
+  font-weight: 600;
+  padding: 0 0 20px;
+  width: 90%;
+}
+.blog-author-info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.related_articles{
+  padding: 0px 20px;
+}
+.request_quote{
+  background: #FFFFFF;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.12);
+  border-radius: 5px;
+  padding: 20px;
+  width: 90%;
+}
+.request_quote label{
+  font-family: 'Poppins', sans-serif;
+  color: #3C3C3C;
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: 600;
+  padding: 0px 0px 5px;
+}
+.request_quote .search_icons .form-control{
+  padding: 0px 10px 0px 35px;
+  height:42px;
+  font-size: 12px;
+  line-height: 18px;
+  font-weight: 400;
+  color:#7B7B7B;
+  border: 1px solid #A7A7A7;
+  border-radius: 3px;  
+}
+.request_quote .form-control{
+  padding: 0px 10px;
+  height:42px;
+  font-size: 12px;
+  line-height: 18px;
+  font-weight: 400;
+  color:#7B7B7B;
+  border: 1px solid rgb(167, 167, 167);
+  border-radius: 3px;
+}
+.request_quote .form-control:focus {
+  color: #7B7B7B;
+  outline: 0;
+  border-color: transparent;
+  box-shadow:0 0 0 0.25rem rgb(167 167 167 / 40%) !important;
+}
+.required{
+  color:#EC002A;
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: 400;
+}
+.search_icons{
+  position: relative;
+}
+.search_icon_pos{
+  position: absolute;
+  top:60%;
+  left:5%;
+  transform:translate(-5%,-60%)
+}
+.download_quote{
+  padding: 15px;
+  background: #5254F1;
+  border:1px solid #5254F1;
+  border-radius: 44px;
+  font-size:14px;
+  font-weight: 600;
+  font-family: 'Poppins', sans-serif;
+  color: #ffffff;
+  width: 100%;
+  display: block;
+  text-align: center;
+  transition: background .25s all ease-in-out;
+}
+.download_quote:hover{
+  background: #fff;
+  color:#5254F1;
+  transition: box-shadow .25s all ease-in-out;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+.related_articles h4, .shared_blog h3{
+  font-family: 'Poppins', sans-serif;
+  color: #3C3C3C;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 700;
+  padding: 0px 0px 20px;
+  margin: 0;
+}
+.related_articles ul{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+.related_articles ul li{
+  border:.5px solid #7B7B7B;
+  border-radius: 999px;
+  font-size: 12px;
+  font-weight: 400;
+  color: #7B7B7B;
+  padding: 10px 20px;
+}
+.shared_blog ul{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 1.25rem;
 }

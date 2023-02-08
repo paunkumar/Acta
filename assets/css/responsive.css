@@ -540,6 +540,8 @@
     
 }
 @media(max-width:575px){
+    .request_quote {width: 100%;
+    }
     .mb-border{
         position: relative;
     }
