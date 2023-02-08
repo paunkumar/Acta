@@ -129,28 +129,28 @@
                         <div class="related_articles">
                             <h3>Recent Articles</h3>
                             <div class="row">
-                                <div class="col-lg-4 col-md-4 col-sm-5 col-5">
-                                    <div><img src="assets/images/blog/related-article-1.png" alt=""></div>
+                                <div class="col-lg-4 col-md-6 col-sm-6 col-5">
+                                    <div><img src="assets/images/blog/related-article-1.png" alt="" class="img-fluid"></div>
                                 </div>
-                                <div class="col-lg-8 col-md-8 col-sm-7 col-7">
+                                <div class="col-lg-8 col-md-6 col-sm-6 col-7">
                                     <p>North East Entrepreneurship Development Program (NEEDP): Overview, Benefits, Eligibility <span>Jan 2023</span></p>
                                 </div>
                             </div>
                             <hr>
                             <div class="row">
-                                <div class="col-lg-4 col-md-4 col-sm-5 col-5">
-                                    <div><img src="assets/images/blog/related-article-2.png" alt=""></div>
+                                <div class="col-lg-4 col-md-6 col-sm-6 col-5">
+                                    <div><img src="assets/images/blog/related-article-2.png" alt="" class="img-fluid"></div>
                                 </div>
-                                <div class="col-lg-8 col-md-8 col-sm-7 col-7">
+                                <div class="col-lg-8 col-md-6 col-sm-6 col-7">
                                     <p>Government Initiatives To Help Women Entrepreneurs <span>Dec 2022</span></p>
                                 </div>
                             </div>
                             <hr>
                             <div class="row">
-                                <div class="col-lg-4 col-md-4 col-sm-5 col-5">
-                                    <div><img src="assets/images/blog/related-article-3.png" alt=""></div>
+                                <div class="col-lg-4 col-md-6 col-sm-6 col-5">
+                                    <div><img src="assets/images/blog/related-article-3.png" alt="" class="img-fluid"></div>
                                 </div>
-                                <div class="col-lg-8 col-md-8 col-sm-7 col-7">
+                                <div class="col-lg-8 col-md-6 col-sm-6 col-7">
                                     <p>List Government Subsidy Loan Schemes For Small Businesses in India <span>Nov 2023</span></p>
                                 </div>
                             </div>

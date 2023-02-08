@@ -181,6 +181,11 @@
 }
 
 @media(max-width:991px){  
+    .request_quote {width: 100%;
+    }
+    .request_quote .search_icons .form-control{
+        padding: 0px 10px 0px 60px;
+    }
     .people-info h4 {
         font-size: 20px;
         line-height: 36px;
@@ -540,7 +545,8 @@
     
 }
 @media(max-width:575px){
-    .request_quote {width: 100%;
+    .request_quote .search_icons .form-control {
+        padding: 0px 10px 0px 35px;
     }
     .mb-border{
         position: relative;
