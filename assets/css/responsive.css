@@ -161,6 +161,10 @@
     .blog_text_wrap p{
         width:100%;
     }
+    .blog_detail_text_wrap h3, .more_related_article h3 {
+        font-size: 24px;
+        line-height: 32px;
+    }
 }
 @media(max-width:1199px){   
     .hero-info h2 {
@@ -183,12 +187,20 @@
 @media(max-width:991px){  
     .request_quote {width: 100%;
     }
+    .blog_detail_text_wrap {
+        padding: 20px 0px 10px;
+        width: 100%;
+    }
     .request_quote .search_icons .form-control{
         padding: 0px 10px 0px 60px;
     }
     .people-info h4 {
         font-size: 20px;
         line-height: 36px;
+    }
+    .blog_detail_text_wrap h3, .more_related_article h3 {
+        font-size: 20px;
+        line-height: 30px;
     }
     .main-section{
         padding:150px 0px 70px;
@@ -415,6 +427,9 @@
 @media(max-width:767px){
     .together_head::before {
         display: none;
+    }
+    .related_articles {
+        padding: 0px 0px;
     }
     .blog_text_wrap h4 {
         font-size: 16px;

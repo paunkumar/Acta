@@ -43,6 +43,25 @@
     				animateIn: 'animate__slideInUp',
 					});
 				});
+				$('#blog_prev_next').owlCarousel({
+					loop:true,
+					margin:10,
+					nav:true,
+					navText:['<span><i class="bi bi-chevron-left"></i> Previous Post</span>', '<span>Next Post <i class="bi bi-chevron-right"></i></span>'],
+					items:2,
+					dots:false,
+					animateIn: 'slideInLeft',
+					animateOut: 'slideInLeft',
+					responsive:{
+						0:{
+							items:1
+						},
+						1024:{
+							items:2
+						}
+					}
+					
+             })	
 
 		</script>
 		@section('foot-content')
