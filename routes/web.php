@@ -113,6 +113,11 @@ Route::post('/upload-resume',[ContactController::class,'uploadResume']);
 
 Route::get('/privacy-policy',[HomeController::class,'privacypolicy']);
 
+Route::get('/blog',[HomeController::class,'blog']);
+
+Route::get('/blog/{blog}', [HomeController::class, 'blogView'])->name('blog.view');
+Route::get('/blog/category/{category}', [HomeController::class, 'blogCategoryView'])->name('blog.view');
+
 // //blogs
 // Route::get('/All-Blog',[UserblogController::class,'allBlog']);
 // Route::get('/blog-details/{id}/{meta}',[UserblogController::class,'blogDetails']);
@@ -133,7 +138,3 @@ Route::get('/services/othercountries',[ServiceController::class,
 
 //user
 Route::get('/', [HomeController::class,'index']);
-
-Route::get('/blog',function(){
-    return view('blog');
-});
