@@ -53,7 +53,7 @@
                 <hr class="tagline_hr">
                 <div class="row">
                     <div class="col-lg-8">
-                        <div class="row">
+                        <div class="row mb-5">
                             @foreach($blogs as $blog)
                             <div class="col-lg-6 col-sm-6 mb-4">
                                 <div class="each_blog_wrap">
@@ -72,6 +72,56 @@
                             @endforeach
                             
                         </div>
+                        <div class="row">
+                    <div class="col-lg-12">
+                        <div class="shared_blog">
+                            <h3>Shared Blog</h3>
+                            <ul>
+                                <li> <a href="" target="_blank"><img src="{{ url('assets/images/blog/linkedin.svg') }}" alt=""></a></li>
+                                <li> <a href="" target="_blank"><img src="{{ url('assets/images/blog/fb.svg') }}" alt=""></a></li>
+                                <li> <a href="" target="_blank"><img src="{{ url('assets/images/blog/twitter.svg') }}" alt=""></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="row my-4">
+                   
+                            <div class="col-lg-6 mx-auto">
+                                <div class="blog-pagination ">
+                                    <ul class="custom-pagination">
+                                        <li class="page-item"><a class="page-link"><img src="{{ url('assets/images/blog/previous.svg') }}" alt=""></a></li>
+                                        <li class="page-item"><a class="page-link active">1</a></li>
+                                        <li class="page-item"><a class="page-link">2</a></li>
+                                        <li class="page-item"><a class="page-link">3</a></li>
+                                        <li class="page-item"><a class="page-link">4</a></li>
+                                        <li class="page-item"><a class="page-link"><img src="{{ url('assets/images/blog/next.svg') }}" alt=""></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                      
+                        <!-- <nav aria-label="Page navigation example">
+                        @if ($blogs->hasPages())
+                            <div class="pagination justify-content-center">
+                                {{ $blogs->links() }}
+                            </div>
+                        @endif -->
+                            <!-- <ul class="pagination justify-content-center">
+                                <li class="page-item disabled">
+                                <a class="page-link" href="#" tabindex="-1"><i class="bi bi-chevron-left"></i></a>
+                                </li>
+                                <li class="page-item"><a class="page-link" href="#">1</a></li>
+                                <li class="page-item"><a class="page-link" href="#">2</a></li>
+                                <li class="page-item"><a class="page-link" href="#">3</a></li>
+                                <li class="page-item">
+                                <a class="page-link" href="#">Next</a>
+                                </li>
+                                <li class="page-item">
+                                <a class="page-link" href="#"><i class="bi bi-chevron-right"></i></a>
+                                </li>
+                            </ul> -->
+                        
+                    
+                </div>
                     </div>
                     <div class="col-lg-4">
                         <div class="related_articles">
@@ -140,45 +190,7 @@
                         </div>                        
                     </div>
                 </div>
-                <div class="row">
-                    <div class="col-lg-12">
-                        <div class="shared_blog">
-                            <h3>Shared Blog</h3>
-                            <ul>
-                                <li> <a href="" target="_blank"><img src="{{ url('assets/images/blog/linkedin.svg') }}" alt=""></a></li>
-                                <li> <a href="" target="_blank"><img src="{{ url('assets/images/blog/fb.svg') }}" alt=""></a></li>
-                                <li> <a href="" target="_blank"><img src="{{ url('assets/images/blog/twitter.svg') }}" alt=""></a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <div class="row my-4">
-                    <div class="col-lg-12">
-                        <div class="blog_pagenation">
-                        <nav aria-label="Page navigation example">
-                        @if ($blogs->hasPages())
-                            <div class="pagination justify-content-center">
-                                {{ $blogs->links() }}
-                            </div>
-                        @endif
-                            <!-- <ul class="pagination justify-content-center">
-                                <li class="page-item disabled">
-                                <a class="page-link" href="#" tabindex="-1"><i class="bi bi-chevron-left"></i></a>
-                                </li>
-                                <li class="page-item"><a class="page-link" href="#">1</a></li>
-                                <li class="page-item"><a class="page-link" href="#">2</a></li>
-                                <li class="page-item"><a class="page-link" href="#">3</a></li>
-                                <li class="page-item">
-                                <a class="page-link" href="#">Next</a>
-                                </li>
-                                <li class="page-item">
-                                <a class="page-link" href="#"><i class="bi bi-chevron-right"></i></a>
-                                </li>
-                            </ul> -->
-                        </nav>
-                        </div>
-                    </div>
-                </div>
+                
             </div>
         </section>
     </main>

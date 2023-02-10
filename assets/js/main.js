@@ -9,27 +9,7 @@
    */
   const select = (el, all = false) => {
     el = el.trim()
-    if (all) {$(document).ready(function(){
-            $('.owl-carousel').owlCarousel({
-                loop:true,
-                margin:10,
-                nav:true,
-                navText:['<i class="bi bi-chevron-left"></i> Prev', '<i class="bi bi-chevron-right"></i>Next'],
-                items:2,
-                dots:false,
-                responsive:{
-                    0:{
-                        items:1
-                    },
-                    600:{
-                        items:3
-                    },
-                    1000:{
-                        items:5
-                    }
-                }
-             })
-        })
+    if (all) {
       return [...document.querySelectorAll(el)]
     } else {
       return document.querySelector(el)

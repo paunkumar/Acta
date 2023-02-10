@@ -14,7 +14,7 @@
 			<div class="col-xxl-11 col-lg-9 col-md-9 mx-auto text-center">
 				<div class="hero-info">
 				<h2>Offshore Staffing Solutions for Accountants with <span class="sub-color">NO</span>
-				<span class="owl-carousel owl-theme owl-service-color">
+				<span class="owl-carousel owl-theme owl-service-color" id="banner_scroll">
 					<span class="item b_lines">Bonus</span>
 					<span class="item b_lines">Insurance</span>
 					<span class="item b_lines">Vacation Pay</span>
