@@ -24,12 +24,13 @@
     <!-- ~Custom fonts for this template~ -->
     <link href="{{ url('assets/css/font-awesome.min.css') }}" rel="stylesheet" type="text/css">
     <!-- <link href="{{ url('assets/vendor/bootstrap/css/bootstrap.min.css') }}" rel="stylesheet"> -->
-    <link href="{{ url('assets/vendor/bootstrap-icons/bootstrap-icons.css') }}" rel="stylesheet">
+    <link href="{{ url('assets/vendor/bootstrap/css/bootstrap.min.css') }}" rel="stylesheet">
     <link href="{{ url('assets/vendor/glightbox/css/glightbox.min.css') }}" rel="stylesheet">
     <link href="{{ url('assets/vendor/swiper/swiper-bundle.min.css') }}" rel="stylesheet">
     <!-- Template Main CSS File -->
     <link href="{{ url('assets/css/style-rewamp.css') }}" rel="stylesheet">
     <link href="{{ url('assets/css/acta-stylesheet.css') }}" rel="stylesheet">
+    <link href="{{ url('assets/css/responsive.css') }}" rel="stylesheet">
     <link href="{{ url('assets/css/service-acta.css') }}" rel="stylesheet">
     <!-- =======================================================
         * Template Name: Acta

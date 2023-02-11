@@ -23,6 +23,9 @@
     }
 }
 @media(max-width:1440px){
+    #about-security {
+        padding: 125px 0 50px;
+    }
     .main-section {
         padding: 150px 0 100px 0;
     }
@@ -77,6 +80,10 @@
         width: 70px;
         height: 70px;
     }
+    .services_wrap h3{
+        font-size:30px;
+        line-height: 45px;
+    }
 }
 @media(max-width:1280px){
     .main-section {
@@ -123,9 +130,13 @@
         font-size: 18px;
         line-height: 30px;
     }
-    .heading-people-content h3, .leadership_head h3, .heading-people-content h2, .leadership_head h2 {
+    .heading-people-content h3, .leadership_head h3, .heading-people-content h2, .leadership_head h2{
         font-size: 30px;
         line-height: 45px;
+    }
+    .services_wrap h3{
+        font-size:24px;
+        line-height: 36px;
     }
     .heading-people-content p, .leadership_head p {
         font-size: 18px;
@@ -165,6 +176,22 @@
         font-size: 24px;
         line-height: 32px;
     }
+    .our_vission p, .data_security p, .data_securitys ul li, .services_wrap ul li, .services_wrap p{
+        font-size: 18px;
+        line-height: 30px;
+    }
+    p.cmbdata_security {
+        padding: 0px 0px 20px;
+    }
+    .section-header {
+        text-align: center;
+        padding: 0 0 35px;
+    }
+    .people-info h4, .sub-heading h3 {
+        font-size: 24px;
+        line-height: 36px;
+    }
+    
 }
 @media(max-width:1199px){   
     .hero-info h2 {
@@ -185,7 +212,12 @@
 }
 
 @media(max-width:991px){  
-    .request_quote {width: 100%;
+    .request_quote {
+        width: 100%;
+    }
+    .people-info h4, .sub-heading h3 {
+        font-size: 20px;
+        line-height: 30px;
     }
     .blog_detail_text_wrap {
         padding: 20px 0px 10px;
@@ -208,6 +240,10 @@
     .hero-info h2 {
         font-size: 26px;
         line-height: 45px;
+    }
+    .services_wrap h3{
+        font-size:20px;
+        line-height: 30px;
     }
     .second-section{
         padding: 40px 0px 0px;
@@ -349,7 +385,7 @@
     .people-management,.people-management-two,.people-management-third, .people-management-four {
         padding: 100px 0px 100px;
     }
-    .heading-people-content h3, .leadership_head h3, .heading-people-content h2, .leadership_head h2 {
+    .heading-people-content h3, .leadership_head h3, .heading-people-content h2, .leadership_head h2{
         font-size: 24px;
         line-height: 40px;
     }
@@ -423,10 +459,27 @@
     .blog_text_wrap {
         padding: 0px 20px;
     }
+    .our_vission p, .data_security p, .data_securitys ul li, .services_wrap ul li, .services_wrap p{
+        font-size: 16px;
+        line-height: 30px;
+    }
+    .data_securitys ul li:before{
+        font-size: 16px;
+    }
+    .data_security{
+        width: 100%;
+    }
+    #about-security {
+        padding: 110px 0 35px;
+    }
 }
 @media(max-width:767px){
     .together_head::before {
         display: none;
+    }
+    .our_vission p, .data_security p, .data_securitys ul li, .services_wrap ul li, .services_wrap p{
+        font-size: 14px;
+        line-height: 26px;
     }
     .related_articles {
         padding: 0px 0px;
@@ -452,7 +505,7 @@
         line-height: 30px;
     }
     .section-header h3, .section-header h2, .section-header h1 {
-        font-size: 28px;
+        font-size: 20px;
         line-height: 30px;
     }
    
@@ -524,7 +577,7 @@
     .people-info{
         margin-top:20px;
     }
-    .heading-people-content h3, .leadership_head h3, .heading-people-content h2, .leadership_head h2 {
+    .heading-people-content h3, .leadership_head h3, .heading-people-content h2, .leadership_head h2{
         font-size: 20px;
         line-height: 36px;
     }

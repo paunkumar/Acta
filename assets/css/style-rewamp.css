@@ -1942,7 +1942,7 @@ p.description-new{
 
 #about-security {
   background: #f6fbff;
-  padding: 110px 0;
+  padding: 125px 0;
   color: #202020;
 }
 
@@ -3201,13 +3201,63 @@ p.description-new{
   padding: 0;
   margin: 0;
 }
-.our_vission p{
+.our_vission p, .data_security p, .data_securitys ul li, .services_wrap ul li, .services_wrap p{
   font-size: 20px;
   line-height: 44px;
   color:#202020;
   font-weight: 500;
   padding: 0;
   margin: 0;
+}
+.services_wrap ul li, .services_wrap p, .data_security p, .data_securitys ul li{
+  font-weight: 400;
+}
+.data_security{
+  width: 95%;
+  margin:0 auto;
+}
+.data_securitys{
+  width: 100%;
+  margin:0 auto;
+}
+.data-security-image img{
+  width: 95%;
+}
+.data_security p{
+  line-height: 40px;
+  padding: 0px 0px 20px;
+}
+.data_securitys ul{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.services_wrap ul{
+  list-style: square;
+  padding: 0px 25px;
+}
+.services_wrap ul li, .services_wrap p{
+  line-height: 40px;
+}
+.services_wrap p{
+  margin-bottom: 10px;
+}
+.data_securitys ul li{
+  line-height: 40px;
+  display: flex;
+  margin-bottom: 20px;
+}
+.data_securitys ul li:before{
+    content: "\f272";
+    display: inline-block;
+    font-family: bootstrap-icons !important;
+    margin-right: 15px;
+    font-size: 24px;
+    color:#21409A;
+    font-weight: 700;
+}
+p.cmbdata_security{
+  padding: 0px 0px 50px;
 }
 .our_vission_head h4{
   font-size: 20px;
@@ -3249,7 +3299,7 @@ p.description-new{
   padding-left: 0px !important;
 }
 /**management**/
-.people-info h4{
+.people-info h4, .sub-heading h3{
   font-size:28px;
   line-height: 40px;
   font-weight: 600;
@@ -3393,13 +3443,18 @@ ul.social-links a{
 .ourteam_second{
   background: #F6FBFF;
 }
-.heading-people-content h3, .leadership_head h3, .heading-people-content h2, .leadership_head h2{
+.heading-people-content h3, .leadership_head h3, .heading-people-content h2, .leadership_head h2, .services_wrap h3{
   font-size: 40px;
   font-weight: 700;
   line-height: 60px;
   color: #202020;
   padding: 0;
   margin: 0 0 30px;
+}
+.services_wrap h3{
+  margin:0 0 0px;
+  color:#078CEB;
+  font-weight: 500;
 }
 .heading-people-content h3 span, .leadership_head h3 span, .heading-people-content h2 span, .leadership_head h2 span{
   color:#078CEB;
@@ -3745,6 +3800,7 @@ ul.social-links a{
   align-items: center;
   flex-direction: column;
 }
+
 .each_blog_wrap img{
   border-radius: 5px 5px 0px 0px;
 }
@@ -4040,4 +4096,68 @@ ul.social-links a{
 }
 .post_next{
   padding-left: 20px;
+}
+.service_image img{
+  mix-blend-mode: darken;
+
+}
+.services_link a.nav-link.active , .services_link a.nav-link{
+    width: 120px;
+    height: 120px;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    outline: 1px solid #BFBFBF;
+    outline-offset: -8px;
+    font-size: 12px;
+    text-align: center;
+}
+.services_link a.nav-link{
+  background:#f4f4f4;
+  color: #8e8e8e;
+  box-shadow: 2px 2px 10px 1px #cbcbcb;
+}
+.services_link a.nav-link img{
+  width: 40px;
+  height: 30px;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+.services_link .nav-pills>li:not(:first-child) {
+  float: left;
+  padding: 0 10px 20px;
+}
+.services_wrap{
+  background: #FFFFFF;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.12);
+  border-radius: 5px;
+  padding: 20px;
+  width: 98%;
+  margin: 0 auto;
+  height: 100%;
+}
+.services_wrap img{
+  width: 40px;
+  height: 35px;
+  object-fit: contain;
+}
+.pl-15{
+  padding-left: 15px;
+}
+.services_link .nav.nav-pills{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+#about-security .heading-people-content p{
+  text-align: center !important;
+}
+ul.alpha_num{
+  list-style: lower-alpha;
+}
+.services_link .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+  color: #ffffff;
+  background-color: #003e8b;
 }
