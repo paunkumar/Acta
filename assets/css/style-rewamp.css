@@ -4161,3 +4161,7 @@ ul.alpha_num{
   color: #ffffff;
   background-color: #003e8b;
 }
+.service_image{
+  text-align: center;
+  margin: 0 auto;
+}

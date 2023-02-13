@@ -19,12 +19,12 @@
                     </div>
                 </div>
                 <div class="row my-5">
-                    <div class="col-lg-4 col-md-6 col-sm-6 col-6">
+                    <div class="col-lg-4 col-md-6 col-sm-6 mb-5">
                         <div class="service_image">
                             <img src="{{ url('/assets/img/service/pro_advisor-1.png') }}" class="img-fluid" alt="advisor">
                         </div>
                     </div>
-                    <div class="col-lg-4 col-md-6 col-sm-6 col-6">
+                    <div class="col-lg-4 col-md-6 col-sm-6 ">
                         <div class="service_image">
                             <img src="{{ url('/assets/img/service/pro_advisor-2.png') }}" class="img-fluid" alt="advisor">
                         </div>

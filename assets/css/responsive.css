@@ -477,6 +477,9 @@
     .together_head::before {
         display: none;
     }
+    .services_link .nav.nav-pills {
+        justify-content: center;
+    }
     .our_vission p, .data_security p, .data_securitys ul li, .services_wrap ul li, .services_wrap p{
         font-size: 14px;
         line-height: 26px;
